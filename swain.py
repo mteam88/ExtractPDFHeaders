@@ -1,17 +1,19 @@
+import sys
+import os
+os.system('pip install pdfminer')
 from pdfminer.layout import LAParams, LTTextBox
 from pdfminer.pdfpage import PDFPage
 from pdfminer.pdfinterp import PDFResourceManager
 from pdfminer.pdfinterp import PDFPageInterpreter
 from pdfminer.converter import PDFPageAggregator
-import sys
 
-fp = open('Ch10.pdf', 'rb')
+fp = open('input.pdf', 'rb')
 rsrcmgr = PDFResourceManager()
 laparams = LAParams()
 device = PDFPageAggregator(rsrcmgr, laparams=laparams)
 interpreter = PDFPageInterpreter(rsrcmgr, device)
 pages = PDFPage.get_pages(fp)
-sys.stdout = open('log.txt', 'w')
+sys.stdout = open('output.txt', 'w')
 
 for page in pages:
     #print('Processing next page...')
