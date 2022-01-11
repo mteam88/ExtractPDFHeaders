@@ -1,6 +1,11 @@
+#!/usr/bin/env python
 import sys
 import os
-os.system('pip install pdfminer')
+import time
+start = time.time()
+print("Installing dependencies...")
+os.system('pip --disable-pip-version-check install -q pdfminer')
+print("Processing...")
 from pdfminer.layout import LAParams, LTTextBox
 from pdfminer.pdfpage import PDFPage
 from pdfminer.pdfinterp import PDFResourceManager
@@ -27,3 +32,8 @@ for page in pages:
                 print('<p><strong>' + text + '</strong></p><p>&nbsp;</p>')
     #input()
 sys.stdout.close()
+sys.stdout = sys.__stdout__
+print("Processing Complete. See output.txt for output.")
+end = time.time()
+total = end - start
+print("Program out in: ", total, " seconds")

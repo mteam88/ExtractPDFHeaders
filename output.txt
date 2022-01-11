@@ -1,0 +1,34 @@
+<p><strong>Dealing with Random Phenomena
+</strong></p><p>&nbsp;</p>
+<p><strong>The Law of Large Numbers
+</strong></p><p>&nbsp;</p>
+<p><strong>The Nonexistent Law of Averages
+</strong></p><p>&nbsp;</p>
+<p><strong>Modeling Probability
+</strong></p><p>&nbsp;</p>
+<p><strong>Personal Probability
+</strong></p><p>&nbsp;</p>
+<p><strong>The First Three Rules for Working 
+with Probability
+</strong></p><p>&nbsp;</p>
+<p><strong>Formal Probability
+</strong></p><p>&nbsp;</p>
+<p><strong>Question 1. What’s the probability that a Japanese M&M’s survey respondent selected at 
+random preferred either pink or teal?
+</strong></p><p>&nbsp;</p>
+<p><strong>Plan Decide which rules to use and
+check the conditions they require.
+</strong></p><p>&nbsp;</p>
+<p><strong>Conclusion Interpret your results in the
+proper context.
+</strong></p><p>&nbsp;</p>
+<p><strong>Question 2. If we pick two respondents at random, what’s the probability that they both said
+purple?
+</strong></p><p>&nbsp;</p>
+<p><strong>Plan The word “both” suggests we want
+P(A and B), which calls for the Multiplica-
+tion Rule. Think about the assumption.
+</strong></p><p>&nbsp;</p>
+<p><strong>Conclusion Interpret your results in the
+proper context.
+</strong></p><p>&nbsp;</p>
